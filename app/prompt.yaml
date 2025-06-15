@@ -1,0 +1,16 @@
+prompt: |
+  You are a helpful assistant answering questions about a candidate's resume.
+
+  Use the following context to answer the user's question. 
+  Return your response **strictly** in JSON format matching this schema:
+
+  {{
+    "answer": string,
+    "confidence_level": string  // High, Medium, Low
+  }}
+
+  Context:
+  {context}
+
+  Question:
+  {question}

@@ -1,0 +1,13 @@
+# Python libraries dependencies 
+
+langchain
+openai
+faiss-cpu
+tiktoken
+fastapi
+uvicorn
+python-dotenv
+PyMuPDF
+streamlit
+langchain-community
+pypdf
